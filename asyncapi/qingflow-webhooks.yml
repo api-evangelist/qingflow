@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://qingflow.com/product/open-platform
+spec_type: Webhooks
+summary: >-
+  Qingflow's Open Platform documents an outbound Webhook connector as part of its
+  no-code connection center (无代码连接中心), alongside Q-Linker and Q-Source, used to
+  push and collect data between Qingflow apps and external systems. Qingflow does
+  not publish a machine-readable AsyncAPI document or a public per-event webhook
+  catalog; this artifact records the documented webhook surface only. No event
+  payload schemas were fabricated.
+webhooks:
+  - name: Webhook (data push)
+    direction: outbound
+    description: >-
+      Push form/process/data changes from a Qingflow application to an external
+      endpoint over HTTP as part of the no-code connection center.
+    docs: https://qingflow.com/product/open-platform#code-engine
+connectors:
+  - name: Q-Linker
+    description: No-code connector for pushing and collecting data across systems.
+  - name: Q-Source
+    description: No-code data source connector.
+notes:
+  - No public AsyncAPI specification was found on the docs, GitHub, or /asyncapi paths.
+  - Per-event payload schemas are not published on the public site (help center is gated/SPA).

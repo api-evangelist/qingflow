@@ -1,7 +1,27 @@
 aid: qingflow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qingflow.png
 name: qingflow
-description: qingflow is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Qingflow (轻流) is an AI-powered no-code and low-code business management platform
+  that lets enterprises build digital operations systems — forms, workflows and
+  approval processes, portals, reports, data management, and automation — without
+  writing code. Its Open Platform exposes OpenAPI interfaces, an outbound Webhook
+  connector, single sign-on / account integration, and no-code connectors (Q-Linker,
+  Q-Source) for pushing and collecting data across systems such as DingTalk, WeChat
+  Work, and Feishu. Qingflow also ships AI features (QingClaw assistant, QingBuilder
+  one-sentence app generation) and prebuilt ERP/CRM/OA/project-management solution
+  templates. The company is backed by Qiming Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/qingflow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- No-Code
+- Low-Code
+- Workflow
+- Automation
+- Business Process Management
+- Open Platform
+- Enterprise Software
+- Forms
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,32 @@ maintainers:
 common:
 - type: Website
   url: https://qingflow.com
+- type: DeveloperPortal
+  url: https://qingflow.com/product/open-platform
+- type: Documentation
+  url: https://help.qingflow.com/help-docs/
+- type: GettingStarted
+  url: https://learn.qingflow.com/index
+- type: Support
+  url: https://help.qingflow.com/help-docs/
+- type: Blog
+  url: https://news.qingflow.com/
+- type: Pricing
+  url: https://qingflow.com/price
+- type: SignUp
+  url: https://qingflow.com/
+- type: TermsOfService
+  url: https://qingflow.com/agreement/service
+- type: PrivacyPolicy
+  url: https://qingflow.com/agreement/privacy
+- type: Webhooks
+  url: asyncapi/qingflow-webhooks.yml
+- type: DomainSecurity
+  url: security/qingflow-domain-security.yml
+- type: LLMsTxt
+  url: llms/qingflow-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
