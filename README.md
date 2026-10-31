@@ -64,6 +64,101 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-qingflow is a company surfaced as a portfolio company of qiming and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Qingflow (轻流) is an AI-powered no-code and low-code business management platform that lets enterprises build digital operations systems — forms, workflows and approval processes, portals, reports, data management, and automation — without writing code. Its Open Platform exposes OpenAPI interfaces, an outbound Webhook connector, single sign-on / account integration, and no-code connectors (Q-Linker, Q-Source) for pushing and collecting data across systems such as DingTalk, WeChat Work, and Feishu. Qingflow also ships AI features (QingClaw assistant, QingBuilder one-sentence app generation) and prebuilt ERP/CRM/OA/project-management solution templates. The company is backed by Qiming Venture Partners.
 
-Backed by: qiming — https://qingflow.com
+**Areas:** Company · No-Code · Low-Code · Workflows · Automation · Business Process Management · Open Platform · Enterprise Software · Forms · China
+
+## qingflow on APIs.io
+
+Everything profiled for qingflow is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/qingflow/](https://apis.io/providers/qingflow/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Qingflow Webhooks](https://apis.io/asyncapis/qingflow/qingflow-webhooks/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [qingflow](https://apis.io/servers/qingflow/qingflow/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Qingflow Domain Security](https://apis.io/security/qingflow/qingflow-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://qingflow.com)
+- [Documentation](https://help.qingflow.com/help-docs/)
+- [Getting started](https://learn.qingflow.com/index)
+- [Pricing](https://qingflow.com/price)
+- [Sign up](https://qingflow.com/)
+- [Support](https://help.qingflow.com/help-docs/)
+- [Blog](https://qingflow.com/blog/)
+- [Terms of service](https://qingflow.com/agreement/service)
+- [Privacy policy](https://qingflow.com/agreement/privacy)
+
+## API Evangelist rating
+
+**Kin Score 26.4** — thin · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 39.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 32.1 |
+| Access clarity | 23.7 |
+
+**Agent readiness 29.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/qingflow/](https://apis.io/providers/qingflow/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for qingflow: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/qingflow/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
